@@ -7,7 +7,14 @@
 const WHATSAPP_NUMBER = "918590159179";
 
 const products = [
-  {name:"Everyday Organizer", price:"₹499", icon:"🧺", description:"A practical organizer for home and everyday use."},
+  {name:"const products = [
+  {
+    name: "AirPods 4",
+    price: "₹499",
+    image: "images/airpods4-1.png",
+    description: "Premium wireless earbuds with a stylish design and comfortable everyday listening."
+  }
+];
   {name:"Kitchen Essential", price:"₹699", icon:"🍳", description:"A useful kitchen product designed for convenience."},
   {name:"Smart Accessory", price:"₹399", icon:"🎧", description:"A handy accessory for modern everyday life."},
   {name:"Home Utility", price:"₹599", icon:"🏠", description:"Simple, useful and practical for your home."}
@@ -22,7 +29,9 @@ function renderProducts(){
   const grid = document.getElementById("productGrid");
   grid.innerHTML = products.map((p,i)=>`
     <article class="product">
-      <div class="product-img" aria-label="${p.name}">${p.icon}</div>
+      <div class="product-img">
+  <img src="${p.image}" alt="${p.name}">
+</div>
       <div class="product-body">
         <h3>${p.name}</h3>
         <p>${p.description}</p>
