@@ -7,7 +7,6 @@
 const WHATSAPP_NUMBER = "918590159179";
 
 const products = [
-  {name:"const products = [
   {
     name: "AirPods 4",
     price: "₹499",
