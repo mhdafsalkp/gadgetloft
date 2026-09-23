@@ -4,7 +4,7 @@
 // Use international format WITHOUT +, spaces or brackets.
 // Example for India: 919876543210
 // ===============================
-const WHATSAPP_NUMBER = "919876543210";
+const WHATSAPP_NUMBER = "918590159179";
 
 const products = [
   {name:"Everyday Organizer", price:"₹499", icon:"🧺", description:"A practical organizer for home and everyday use."},
