@@ -14,13 +14,6 @@ const products = [
     description: "Premium wireless earbuds with a stylish design and comfortable everyday listening."
   }
 ];
-  {name:"Kitchen Essential", price:"₹699", icon:"🍳", description:"A useful kitchen product designed for convenience."},
-  {name:"Smart Accessory", price:"₹399", icon:"🎧", description:"A handy accessory for modern everyday life."},
-  {name:"Home Utility", price:"₹599", icon:"🏠", description:"Simple, useful and practical for your home."}
-];
-
-function orderOnWhatsApp(product){
-  const message = `Hello SHOPZONE! I am interested in ordering: ${product.name} (${product.price}). Please share availability, delivery charges and payment details.`;
   window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, "_blank");
 }
 
