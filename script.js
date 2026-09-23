@@ -8,9 +8,9 @@ const WHATSAPP_NUMBER = "918590159179";
 
 const products = [
   {
-    name: "AirPods 4",
+    name: "AirPods 2",
     price: "₹499",
-    image: "images/airpods4-1.png",
+  image: "pro2.jpg",
     description: "Premium wireless earbuds with a stylish design and comfortable everyday listening."
   }
 ];
